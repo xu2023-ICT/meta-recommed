@@ -18,7 +18,32 @@
 
 ## 🏗️ 项目结构概览
 
-. ├── base_dnn.py # 主模型训练代码（Embedding + DNN） ├── warm_up_dnn.py # 元学习训练与冷启动生成器代码 ├── ctr_funcs.py # 数据读取与指标计算等工具函数 ├── config_dnn.py # DNN模型参数配置 ├── config_gme.py # GME生成器训练参数配置 ├── data/ # TFRecord 格式数据集 ├── tmp/ # 模型保存路径
+项目目录结构：
+├── ReadMe.md               # 项目说明文件  
+├── base_dnn.py             # 主推荐模型训练脚本（基于 DNN）  
+├── warm_up_dnn_base.py     # 元学习 + 冷启动嵌入生成器训练脚本  
+├── test.py                 # 测试脚本（用于示例或调试）  
+├── config_dnn.py           # DNN 模型的配置参数  
+├── config_gme.py           # 元学习阶段的配置参数  
+├── ctr_funcs.py            # 公共工具函数（包括数据读取和指标计算）  
+├── data/                   # 原始数据目录（包含 TFRecord 和 CSV 文件）  
+│   ├── big_train_main.csv  
+│   ├── big_train_main.tfrecord  
+│   ├── test_oneshot_a.csv  
+│   └── test_oneshot_a.tfrecord  
+├── data_with_hist/         # 含历史点击行为的冷启动数据目录  
+│   ├── test_oneshot_a_hist.csv  
+│   ├── test_oneshot_a_hist.tfrecord  
+│   ├── test_oneshot_b_hist.csv  
+│   ├── test_oneshot_b_hist.tfrecord  
+│   ├── test_test_w_ngb_hist.tfrecord  
+│   ├── train_oneshot_a_w_ngb_hist.csv  
+│   ├── train_oneshot_a_w_ngb_hist.tfrecord  
+│   ├── train_oneshot_b_w_ngb_hist.csv  
+│   └── train_oneshot_b_w_ngb_hist.tfrecord  
+├── tmp/                    # 模型保存目录及结果输出目录  
+│   ├── dnn/                # 保存的 DNN 模型参数  
+│   └── dnn_0801_0900.txt   # 输出的结果或日志文件  
 
 
 ---
