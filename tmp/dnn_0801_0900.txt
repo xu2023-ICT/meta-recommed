@@ -1,0 +1,81 @@
+2024-01-06 11:46:47
+para = [0.001, 128]
+train_file_name = ./data/big_train_main.tfrecord
+learning_rate = 0.001, n_epoch = 1, emb_dize = 10
+test_auc = 0.7144
+test_rmse = 0.4783
+test_loss = 0.64874
+train_loss_list =[0.5545, 0.5288]
+--------------------------------------------------
+2024-01-06 11:46:50
+para = [0.001, 128]
+train_file_name = ./data/big_train_main.tfrecord
+learning_rate = 0.001, n_epoch = 1, emb_dize = 10
+test_auc = 0.7073
+test_rmse = 0.4792
+test_loss = 0.65056
+train_loss_list =[0.6174, 0.5387]
+--------------------------------------------------
+2024-01-06 11:47:27
+para = [0.001, 128]
+train_file_name = ./data/big_train_main.tfrecord
+learning_rate = 0.001, n_epoch = 1, emb_dize = 10
+test_auc = 0.7116
+test_rmse = 0.4757
+test_loss = 0.64372
+train_loss_list =[0.5897, 0.4903]
+--------------------------------------------------
+2024-01-06 11:48:55
+para = [0.001, 128]
+train_file_name = ./data/big_train_main.tfrecord
+learning_rate = 0.001, n_epoch = 1, emb_dize = 10
+test_auc = 0.7093
+test_rmse = 0.4794
+test_loss = 0.65128
+train_loss_list =[0.5698, 0.5306]
+--------------------------------------------------
+2024-01-06 11:51:55
+para = [0.001, 128]
+train_file_name = ./data/big_train_main.tfrecord
+learning_rate = 0.001, n_epoch = 1, emb_dize = 10
+test_auc = 0.7133
+test_rmse = 0.4784
+test_loss = 0.64925
+train_loss_list =[0.5662, 0.5051]
+--------------------------------------------------
+2024-04-10 20:40:46
+para = [0.001, 128]
+train_file_name = ./data/big_train_main.tfrecord
+learning_rate = 0.001, n_epoch = 1, emb_dize = 10
+test_auc = 0.7082
+test_rmse = 0.4822
+test_loss = 0.65694
+train_loss_list =[0.5882, 0.5341]
+--------------------------------------------------
+2024-04-10 20:51:19
+para = [0.001, 128]
+train_file_name = ./data/big_train_main.tfrecord
+learning_rate = 0.001, n_epoch = 1, emb_dize = 10
+test_auc = 0.7097
+test_rmse = 0.4771
+test_loss = 0.6461
+train_loss_list =[0.5995, 0.5349]
+--------------------------------------------------
+2024-04-10 20:59:21
+para = [0.001, 128]
+train_file_name = ./data/big_train_main.tfrecord
+learning_rate = 0.001, n_epoch = 1, emb_dize = 10
+test_auc = 0.7062
+test_rmse = 0.4786
+test_loss = 0.64942
+train_loss_list =[0.5668, 0.4897]
+--------------------------------------------------
+2025-01-06 22:34:40
+para = [0.001, 128]
+train_file_name = ./data/big_train_main.tfrecord
+learning_rate = 0.001, n_epoch = 1, emb_dize = 10
+test_auc = 0.7096
+test_rmse = 0.4771
+test_loss = 0.64638
+train_loss_list =[0.5652, 0.559]
+--------------------------------------------------
